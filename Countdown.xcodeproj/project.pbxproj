@@ -11,7 +11,7 @@
 		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
 		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
 		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
-		D682C9290FE2E30B009D7081 /* rooTimeLeftFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = D682C9280FE2E30B009D7081 /* rooTimeLeftFormatter.m */; };
+		D682C9290FE2E30B009D7081 /* rooTimerFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = D682C9280FE2E30B009D7081 /* rooTimerFormatter.m */; };
 		D6C2CFCD0FE2C54C00E68B8C /* Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = D6C2CFCC0FE2C54C00E68B8C /* Controller.m */; };
 /* End PBXBuildFile section */
 
@@ -26,8 +26,8 @@
 		32CA4F630368D1EE00C91783 /* Countdown_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Countdown_Prefix.pch; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8D1107320486CEB800E47090 /* Countdown.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Countdown.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		D682C9270FE2E30B009D7081 /* rooTimeLeftFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rooTimeLeftFormatter.h; sourceTree = "<group>"; };
-		D682C9280FE2E30B009D7081 /* rooTimeLeftFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = rooTimeLeftFormatter.m; sourceTree = "<group>"; };
+		D682C9270FE2E30B009D7081 /* rooTimerFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rooTimerFormatter.h; sourceTree = "<group>"; };
+		D682C9280FE2E30B009D7081 /* rooTimerFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = rooTimerFormatter.m; sourceTree = "<group>"; };
 		D6C2CFCB0FE2C54C00E68B8C /* Controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Controller.h; sourceTree = "<group>"; };
 		D6C2CFCC0FE2C54C00E68B8C /* Controller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Controller.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -49,8 +49,8 @@
 			children = (
 				D6C2CFCB0FE2C54C00E68B8C /* Controller.h */,
 				D6C2CFCC0FE2C54C00E68B8C /* Controller.m */,
-				D682C9270FE2E30B009D7081 /* rooTimeLeftFormatter.h */,
-				D682C9280FE2E30B009D7081 /* rooTimeLeftFormatter.m */,
+				D682C9270FE2E30B009D7081 /* rooTimerFormatter.h */,
+				D682C9280FE2E30B009D7081 /* rooTimerFormatter.m */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -178,7 +178,7 @@
 			files = (
 				8D11072D0486CEB800E47090 /* main.m in Sources */,
 				D6C2CFCD0FE2C54C00E68B8C /* Controller.m in Sources */,
-				D682C9290FE2E30B009D7081 /* rooTimeLeftFormatter.m in Sources */,
+				D682C9290FE2E30B009D7081 /* rooTimerFormatter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

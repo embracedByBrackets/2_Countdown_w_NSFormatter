@@ -3,7 +3,7 @@
 //  Countdown
 
 #import "Controller.h"
-#import "rooTimeLeftFormatter.h"
+#import "rooTimerFormatter.h"
 
 
 @interface Controller(private)
@@ -21,7 +21,7 @@
 //------------------------------------------------------------------------------
 - (void) awakeFromNib
 {
-    [countdownCell setFormatter:[[rooTimeLeftFormatter alloc] init]];
+    [countdownCell setFormatter:[[rooTimerFormatter alloc] init]];
 }
 
 

@@ -4,7 +4,7 @@
 #import <Cocoa/Cocoa.h>
 
 
-@interface rooTimeLeftFormatter : NSFormatter {
+@interface rooTimerFormatter : NSFormatter {
 
 }
 

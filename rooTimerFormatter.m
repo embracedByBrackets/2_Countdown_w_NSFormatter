@@ -2,10 +2,10 @@
 //  rooTimeLeftFormatter.m
 //  Countdown
 
-#import "rooTimeLeftFormatter.h"
+#import "rooTimerFormatter.h"
 
 
-@implementation rooTimeLeftFormatter
+@implementation rooTimerFormatter
 
 
 
